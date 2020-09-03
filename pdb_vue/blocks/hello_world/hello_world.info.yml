@@ -1,0 +1,17 @@
+name: Hello World
+machine_name: hello-world
+type: pdb
+description: 'Hello World pdb_vue block'
+package: Vue
+core: '8.x'
+module_status: active
+presentation: vue
+add_css:
+  header:
+    theme:
+      '../../dist/css/hello_world.css': {}
+add_js:
+  footer:
+    '../../dist/js/hello_world.js': {}
+libraries:
+  - pdb_demo/pdb_vue.common

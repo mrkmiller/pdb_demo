@@ -1,0 +1,17 @@
+name: Special Alert
+machine_name: special-alert
+type: pdb
+description: 'Special Alert pdb_vue block'
+package: Vue
+core: '8.x'
+module_status: active
+presentation: vue
+add_css:
+  header:
+    theme:
+      '../../dist/css/special_alert.css': {}
+add_js:
+  footer:
+    '../../dist/js/special_alert.js': {}
+libraries:
+  - pdb_demo/pdb_vue.common

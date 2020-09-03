@@ -1,0 +1,7 @@
+name: PDB Demo
+description: Show how multiple PDB Vue blocks can be used.
+type: module
+core_version_requirement: ^8 || ^9
+
+dependencies:
+  - drupal:pdb_vue
